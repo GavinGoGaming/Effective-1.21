@@ -1,20 +1,23 @@
 [versions]
 chenille = "0.11.3"
 # The latest versions are available at https://lambdaurora.dev/tools/import_quilt.html
-minecraft = "1.20.1"
-quilt-mappings = "1.20.1+build.23"
-quilt-loader = "0.23.0"
+minecraft = "1.21"
+quilt_mappings = "1.21+build.5"
 
-quilt-quiltedFabricApi = "7.4.0+0.90.0-1.20.1"
+quilt_loom = "1.7.3"
+quilt_loader = "0.26.1-beta.1"
+
+quilted_fabric_api = "11.0.0-alpha.2+0.100.4-1.21"
 
 # Third party dependencies
 # The latest versions should be available at https://ladysnake.org/tools/dependencies
-iris = "1.6.11+1.20.1"
+iris = "1.7.3+1.21"
+# Lodestone hasnt been ported (or atleast im not sure what the dependency is, and veil is now used)
 lodestoneLib = "0.0.4+1.20.1"
 midnightLib = "1.4.1-quilt"
 modmenu = "7.2.2"
 satin = "1.14.0"
-sodium = "mc1.20.1-0.5.3"
+sodium = "mc1.21-0.5.11"
 jcpp = "1.4.14"
 glslTransformer = "2.0.0-pre13"
 
